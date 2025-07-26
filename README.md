@@ -32,19 +32,6 @@ Each question is preprocessed and vectorized to compare with user queries.
 
 ---
 
-## 🧳 Folder Structure
-
-Career-Guidance-Chatbot/
-│
-├── CareerGuidanceDataset.csv
-├── chatbot_app.py
-├── chatbot_model.pkl
-├── vectorizer.pkl
-├── requirements.txt
-└── README.md
-
----
-
 ## 📬 Contact
 Developed by **Khizar Ishtiaq**
 - 📧 Email: khizarishtiaq59@gmail.com
