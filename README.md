@@ -4,6 +4,15 @@ A chatbot that helps students to get career advice using Natural Language Proces
 
 ---
 
+## 🚀 Live Demo
+
+Explore the Career Guidance Chatbot in action!  
+Ask your career-related questions and receive smart, personalized advice powered by advanced NLP and machine learning techniques.
+
+[**Try the chatbot now →**](https://career-guidance-chatbot-tcsdhbh3njs3prbysrksya.streamlit.app/)
+
+---
+
 ## 🧠 Features
 
 - 🔎 Understands user questions using vectorization and cosine similarity
