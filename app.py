@@ -5,7 +5,10 @@ import string
 import nltk
 from nltk.corpus import stopwords
 from sklearn.metrics.pairwise import cosine_similarity
+import nltk
+nltk.download('stopwords')
 
+from nltk.corpus import stopwords
 
 # Setup
 st.set_page_config(page_title="Career Guidance Chatbot", layout="centered")
