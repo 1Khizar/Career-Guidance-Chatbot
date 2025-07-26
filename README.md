@@ -32,21 +32,7 @@ Each question is preprocessed and vectorized to compare with user queries.
 
 ---
 
-## 🖥 How to Run Locally
-
-1. Clone this repository:
-
-```bash
-git clone https://github.com/1Khizar/Career-Guidance-Chatbot.git
-cd Career-Guidance-Chatbot
-Install the required packages:
-
-pip install -r requirements.txt
-
-Run the app:
-streamlit run chatbot_app.py
-
-🧳 Folder Structure
+##🧳 Folder Structure
 
 Career-Guidance-Chatbot/
 │
@@ -57,8 +43,9 @@ Career-Guidance-Chatbot/
 ├── requirements.txt
 └── README.md
 
+---
 
-📬 Contact
+##📬 Contact
 Developed by Khizar Ishtiaq
 📧 Email: khizarishtiaq59@gmail.com
 🌐 GitHub: https://github.com/1Khizar
