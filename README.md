@@ -1,6 +1,6 @@
 # 💼 Career Guidance Chatbot
 
-An AI-powered chatbot that helps students and job-seekers get career advice using Natural Language Processing (NLP) and Machine Learning. Built with Python, Streamlit, and scikit-learn.
+A chatbot that helps students to get career advice using Natural Language Processing (NLP) and Machine Learning. Built with Python, Streamlit, and scikit-learn.
 
 ---
 
@@ -32,7 +32,7 @@ Each question is preprocessed and vectorized to compare with user queries.
 
 ---
 
-##🧳 Folder Structure
+## 🧳 Folder Structure
 
 Career-Guidance-Chatbot/
 │
@@ -45,8 +45,8 @@ Career-Guidance-Chatbot/
 
 ---
 
-##📬 Contact
-Developed by Khizar Ishtiaq
-📧 Email: khizarishtiaq59@gmail.com
-🌐 GitHub: https://github.com/1Khizar
+## 📬 Contact
+Developed by **Khizar Ishtiaq**
+- 📧 Email: khizarishtiaq59@gmail.com
+- 🌐 GitHub: https://github.com/1Khizar
 
