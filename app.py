@@ -41,16 +41,6 @@ with st.form("chat_form"):
     user_ques = st.text_input('Ask me a career-related question: ')
     submitted = st.form_submit_button("🔍 Get Answer")
 
-st.markdown(
-    """
-    <hr style="border: 1px solid #eaeaea; margin-top: 0px;">
-    <div style="text-align: center; font-size: 15px;">
-        👨‍💻 Developed with  by <b>Khizar Ishtiaq</b><br>
-        🔗 <a href="https://linkedin.com/in/khizar-ishtiaq-716518315" target="_blank">Visit my LinkedIn Profile</a>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 # Filter dataset for selected role
 filtered_df = df[df['role'] == selected_role].copy()
@@ -78,6 +68,18 @@ if submitted and user_ques:
     best_score = similarity_scores[0, best_index]
 
     if best_score > 0.3:
-        st.success("Chatbot Answer: " + df['answer'][best_index])
+        st.success("Chatbot Answer: " + filtered_df['answer'].iloc[best_index])
     else:
         st.error("\nChatbot: Sorry, I don't have enough information about that.")
+        
+        
+st.markdown(
+    """
+    <hr style="border: 1px solid #eaeaea; margin-top: 0px;">
+    <div style="text-align: center; font-size: 15px;">
+        👨‍💻 Developed with  by <b>Khizar Ishtiaq</b><br>
+        🔗 <a href="https://linkedin.com/in/khizar-ishtiaq-716518315" target="_blank">Visit my LinkedIn Profile</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
