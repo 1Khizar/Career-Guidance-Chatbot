@@ -77,7 +77,7 @@ st.markdown(
     """
     <hr style="border: 1px solid #eaeaea; margin-top: 0px;">
     <div style="text-align: center; font-size: 15px;">
-        👨‍💻 Developed with  by <b>Khizar Ishtiaq</b><br>
+        👨‍💻 Developed by <b>Khizar Ishtiaq</b><br>
         🔗 <a href="https://linkedin.com/in/khizar-ishtiaq-716518315" target="_blank">Visit my LinkedIn Profile</a>
     </div>
     """,
